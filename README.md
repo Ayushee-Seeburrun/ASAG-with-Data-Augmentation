@@ -25,7 +25,7 @@ As mentionned before, the original dataset has an imbalanced distribution across
 
 **Data Augmentation Using Large Language Models** 🖥️
 
-To mitigate the effects of class imbalance, data augmentation was applied to the training set by generating paraphrased versions of existing student answers. A large language model (LLM) was used to produce semantically equivalent paraphrases while preserving the original meaning and score label.
+To mitigate the effects of class imbalance, data augmentation was applied to the training set by generating paraphrased versions of existing student answers. A large language model (LLM) was given a prompt and it had to produce semantically equivalent paraphrases while preserving the original meaning and score label.
 
 Moreover, data augmentation is also applied due to the limited size of existing datasets and with this process the size of a dataset can be expanded such that the model gets more variety in the training data, and it can handle the different ways in which students might respond. If models are trained on limited data, they often struggle to perform well on unknown samples.
 Data Augmentation refers to a set of techniques that can be used to create new data by slightly modifying the data samples that we already have.
